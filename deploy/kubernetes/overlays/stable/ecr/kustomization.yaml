@@ -4,11 +4,11 @@ bases:
   - ../../../base
 images:
   - name: amazon/aws-efs-csi-driver
-    newName: 91830976355.dkr.ecr.cn-north-1.amazonaws.com.cn/eks/aws-efs-csi-driver
+    newName: xxx.dkr.ecr.cn-north-1.amazonaws.com.cn/eks/aws-efs-csi-driver
     newTag: v1.0.0
   - name: quay.io/k8scsi/livenessprobe
-    newName: 91830976355.dkr.ecr.cn-north-1.amazonaws.com.cn/eks/livenessprobe
+    newName: xxx.dkr.ecr.cn-north-1.amazonaws.com.cn/eks/livenessprobe
     newTag: v2.0.0
   - name: quay.io/k8scsi/csi-node-driver-registrar
-    newName: 91830976355.dkr.ecr.cn-north-1.amazonaws.com.cn/eks/csi-node-driver-registrar
+    newName: xxx.dkr.ecr.cn-north-1.amazonaws.com.cn/eks/csi-node-driver-registrar
     newTag: v1.3.0
